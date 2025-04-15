@@ -43,6 +43,4 @@ function calculateDaysWithOutWeekendAndConsideringHolidays(initialDate, endDate,
     return counter === 1 ? `${counter} dia` : `${counter} dias`;
 }
 
-
-
 module.exports = { calculateRunningDays, calculateDaysWithOutWeekend, calculateDaysWithOutWeekendAndConsideringHolidays };
